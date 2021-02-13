@@ -4,9 +4,9 @@ import ProductDetails from "../components/layout/ProductDetails"
 import useProducts from "../hooks/useProducts"
 
 
-const Home = () => {
+const Populars = () => {
 
-  const {products} = useProducts("created")
+  const {products} = useProducts("votes")
 
   return(    
     <div>
@@ -28,4 +28,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Populars
